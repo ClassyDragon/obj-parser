@@ -30,7 +30,11 @@
  *
  *                                               USE
  *
+ * // Materials and Textures in specified directories:
  * Model modelVar = ModelLoader::LoadModel("res/models/model.obj", "res/materials/", "res/textures");
+ *
+ * // Materials and Textures in current directory:
+ * Model modelVar = ModelLoader::LoadModel("model.obj");
  *
  * --------------------------------------------------------------------------------------------------
  *
